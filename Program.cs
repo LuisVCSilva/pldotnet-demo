@@ -7,9 +7,8 @@ class Program
     static async Task Main(string[] args)
     {
         // adjust this connection string to your DB settings
-	//ALTER USER postgres PASSWORD 'postgres';
-        var connString = "Host=localhost;Username=postgres;Password=postgres;Database=postgres";
-
+	    //ALTER USER postgres PASSWORD 'postgres';
+	    var connString = "Host=/var/run/postgresql;Username=postgres;Database=postgres";
         await using var conn = new NpgsqlConnection(connString);
         await conn.OpenAsync();
 

@@ -1,6 +1,4 @@
-Got it! You have a **C# .NET project** called `PldotnetDemo` with a `Program.cs` and a `.csproj` file, plus some SQL. Here's how to run it step by step:
 
----
 
 ### 1️⃣ Check prerequisites
 
@@ -83,3 +81,4 @@ After building, you can also run the executable directly:
 ```
 
 Now, let's add some more new apps, create some sort of "examples" folder.
+
