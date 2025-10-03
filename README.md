@@ -1,4 +1,3 @@
-````markdown
 ### 1️⃣ Check prerequisites
 
 Make sure you have:
